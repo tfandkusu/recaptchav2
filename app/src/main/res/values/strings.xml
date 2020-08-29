@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Try reCAPTCHA v2</string>
+    <string name="comment">コメントを入力</string>
+    <string name="submit">投稿する</string>
 </resources>
