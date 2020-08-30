@@ -10,6 +10,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class MainViewModel : ViewModel() {
 
+    /**
+     * URLはデプロイ先。今回はGoogle App Engineにデプロイした。
+     */
     private val retrofit = Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .baseUrl("https://recaptcha-dot-tfandkusu.appspot.com/")
@@ -18,13 +21,13 @@ class MainViewModel : ViewModel() {
     private val service = retrofit.create(ApiService::class.java)
 
     /**
-     * CAPTCHAの検証が成功した時のイベント
+     * CAPTCHAの検証が成功した
      */
     val success = MutableLiveData<Boolean>()
 
 
     /**
-     * CAPTCHAの検証が失敗した時のイベント
+     * CAPTCHAの検証が失敗した
      */
     val fail = MutableLiveData<String>()
 
