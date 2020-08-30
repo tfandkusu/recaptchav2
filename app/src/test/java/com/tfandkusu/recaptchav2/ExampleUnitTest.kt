@@ -1,4 +1,4 @@
-package com.tfandkusu.rechaptchav2
+package com.tfandkusu.recaptchav2
 
 import org.junit.Test
 

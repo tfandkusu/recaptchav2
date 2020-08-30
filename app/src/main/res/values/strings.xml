@@ -2,4 +2,7 @@
     <string name="app_name">Try reCAPTCHA v2</string>
     <string name="comment">コメントを入力</string>
     <string name="submit">投稿する</string>
+    <string name="success">投稿完了</string>
+    <string name="error">エラー</string>
+    <string name="ok">OK</string>
 </resources>

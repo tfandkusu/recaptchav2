@@ -1,4 +1,4 @@
-package com.tfandkusu.rechaptchav2
+package com.tfandkusu.recaptchav2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
